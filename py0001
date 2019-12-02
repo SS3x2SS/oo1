@@ -1,1 +1,67 @@
 
+Python 2.7.17 (v2.7.17:c2f86d86e6, Oct 19 2019, 21:01:17) [MSC v.1500 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> Python 2.7.17 (v2.7.17:c2f86d86e6, Oct 19 2019, 21:01:17) [MSC v.1500 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> # 变量和简单的数据类型
+>>> #输出第一行代码【hello_world】
+>>> print ('helle_world')
+helle_world
+>>> # 变量：每一个变量都存储了一个值，程序中哦可以随时修改变量的值，而python始终记录变量的最新值
+>>> message='你好！你个傻逼'
+>>> print (message)
+你好！你个傻逼
+>>> message='你好，傻狗'
+>>> print (message)
+你好，傻狗
+>>> message='123'
+>>> message='234'
+>>> print message
+234
+>>> #变量的命名于使用
+>>> #变量只能用数字、下划线和字母。数字不能用于首字母。
+>>> #变量名中不可出现空格。
+>>> #不能用python关键字和函数名作为变量名，不能用python所保留用于特殊用途的单词。
+>>> #变量名应该简短而具有描述性
+>>> #慎用小写i和大写O
+>>> #---------------------------------------------
+>>> ##字符串##
+>>> #字符串就是一系列字符，在python中，用引号括起来的就是字符串，其中可以是单引号，也还可以是双引号。
+>>> '123214'
+'123214'
+>>> ''21321412''
+SyntaxError: invalid syntax
+>>> "1234"
+'1234'
+>>> '2323"42131"12321'
+'2323"42131"12321'
+>>> "1231'13112'1"
+"1231'13112'1"
+>>> #.title() 首字母大写  .upper() 全部大写   .lower()  全部小写  + 拼接字符串
+ # \n 换行    \t 制表  .rstrip() 删除结尾空白   .lstrip() 删除首部空白   .strip 删除空白  str() 转化为字符串
+
+SyntaxError: invalid syntax
+>>> 
+>>> str1="add lovelace"
+>>> str1.title()
+'Add Lovelace'
+>>> str1.u
+
+Traceback (most recent call last):
+  File "<pyshell#4>", line 1, in <module>
+    str1.u
+AttributeError: 'str' object has no attribute 'u'
+>>> str1.upper()
+'ADD LOVELACE'
+>>> str1.lower()
+'add lovelace'
+>>> sht1='    add    lovelace       '
+>>> sht1
+'    add    lovelace       '
+>>> sht1.rstrip()
+'    add    lovelace'
+>>> sht1.lstrip()
+'add    lovelace       '
+>>> sht1.strip()
+'add    lovelace'
+>>> 
